@@ -12,7 +12,8 @@ Pod::Spec.new do |s|
   s.authors      = "DLTHUB"
   s.source = { :git => 'https://github.com/dlthub/react-native-ausweisapp2-wrapper.git', :tag => 'v1.0.0' }
 
-  s.platforms    = { :ios => "11.0" }
+  s.platforms    = { :ios => "14.0" }
+  s.source       = { :git => "https://github.com/kulturpass-de/react-native-ausweisapp2-wrapper.git", :tag => "#{s.version}" }
 
   s.source_files = "ios/*.{h,c,cc,cpp,m,mm,swift}"
   s.vendored_frameworks = 'ios/Frameworks/AusweisApp2-SDK-iOS/AusweisApp2.xcframework'
